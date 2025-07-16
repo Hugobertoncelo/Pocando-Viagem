@@ -8,12 +8,12 @@ nav.innerHTML = `
       <img
         class="img2"
         src="./img/logo.png"
-        width="80"
+        width="70"
         style="color: #000"
       />
       <h1
         class="logo"
-        style="font-family: Poppins; text-transform: lowercase"
+        style="font-family: Poppins"
       >
         &nbsp;Pocando na Viagem
       </h1>
