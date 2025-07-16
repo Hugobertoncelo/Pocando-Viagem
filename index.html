@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pocando na Viagem</title>
+
+    <!-- Fontes e ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body
+    onload="if (window.location.href.endsWith('#about')) { introAboutLogoTransition(); }"
+  >
+    <!-- Navbar -->
+    <div id="navbar-container"></div>
+
+    <!-- Header -->
+    <header id="home">
+      <div class="header-content">
+        <div class="main">
+          <h2 id="quote" style="font: Poppins">POCANDO NA VIAGEM</h2>
+          <div class="line"></div>
+          <h1>Pocando na Viagem</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- Events -->
+    <section class="events" id="events">
+      <div class="container">
+        <div class="title">
+          <h1 class="dark">DESTAQUES</h1>
+          <div class="line"></div>
+        </div>
+        <div class="row">
+          <article class="card col">
+            <img class="card-img" src="./img/i1.png" />
+            <h4 class="dark">COMIDA</h4>
+            <p class="font-color">Uma viagem divertida para o seu paladar!</p>
+            <a href="Food/Food/Food.html" class="ctn">All Details</a>
+          </article>
+          <article class="card col">
+            <img src="./img/i3.jpg" />
+            <h4 class="dark">HISTÓRIA</h4>
+            <p class="font-color">Uma rápida olhada no nosso passado.</p>
+            <a href="History/History.html" class="ctn">All Details</a>
+          </article>
+          <article class="card col">
+            <img src="./img/i8.jpg" />
+            <h4 class="dark">CULTURA</h4>
+            <p class="font-color">Uma rápida olhada no nosso presente.</p>
+            <a href="Culture/Culture.html" class="ctn">All Details</a>
+          </article>
+          <article class="card col">
+            <img src="./img/i6.jpg" style="height: 180px; width: 250px" />
+            <h4 class="dark">GALERIA</h4>
+            <p class="font-color">Galeria de fotos de nossas viagens</p>
+            <a href="Spiritual/Spiritual.html" class="ctn">All Details</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="title">
+        <h1 class="font-color">Algumas Viagens</h1>
+        <div class="line"></div>
+      </div>
+      <br />
+      <div id="about_us">
+        <div class="boxx">
+          <div class="containerx">
+            <input type="radio" name="slider" id="item-1" checked />
+            <input type="radio" name="slider" id="item-2" />
+            <input type="radio" name="slider" id="item-3" />
+            <div class="cards">
+              <label class="cardt" for="item-1" id="col-img-1">
+                <img src="./img/c1.jpg" />
+              </label>
+              <label class="cardt" for="item-2" id="col-img-2">
+                <img src="./img/c2.jpg" />
+              </label>
+              <label class="cardt" for="item-3" id="col-img-3">
+                <img src="./img/c3.jpg" />
+              </label>
+            </div>
+          </div>
+          <div class="about"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <div id="contact-container"></div>
+
+    <!-- Scroll to top -->
+    <i class="fa fa-chevron-up" onclick="topFunction()" id="upbtn"></i>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

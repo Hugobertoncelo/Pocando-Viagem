@@ -1,0 +1,17 @@
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.error {
+  color: red;
+}
+
+.feedback {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
