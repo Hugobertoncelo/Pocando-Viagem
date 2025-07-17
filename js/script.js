@@ -36,11 +36,9 @@ $("#about").on("mouseover", function () {
   introAboutLogoTransition();
 });
 
-$('input').on('change', function() {
+$('input').on('change', function () {
   $('body').toggleClass('blue');
 });
-
-
 
 // Light/Dark toggle
 const checkbox = document.getElementById('checkbox');
@@ -50,7 +48,7 @@ function introAboutLogoTransition() {
   $("#about-quad").css("opacity", "1");
 }
 
-function checkDarkMode(){
+function checkDarkMode() {
   if (localStorage.getItem("tourism_website_darkmode") !== null && localStorage.getItem("tourism_website_darkmode") === "true") {
     document.body.classList.add('dark');
     checkbox.checked = true;
@@ -60,16 +58,16 @@ checkDarkMode();
 
 checkbox.addEventListener('change', () => {
   document.body.classList.toggle('dark');
-  document.body.classList.contains('dark') ? 
+  document.body.classList.contains('dark') ?
     localStorage.setItem("tourism_website_darkmode", true) :
-    localStorage.setItem("tourism_website_darkmode", false); 
+    localStorage.setItem("tourism_website_darkmode", false);
 });
 
 // scroll button
 
 let mybutton = document.getElementById("upbtn");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -80,5 +78,19 @@ function scrollFunction() {
 }
 function topFunction() {
   document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
 }
+
+function loadYouTubeVideo() {
+  const container = document.getElementById("video-container");
+  container.innerHTML = `
+    <iframe
+      src="https://www.youtube.com/embed/KJCD5dx7EKo?autoplay=1"
+      title="Canal Pocando na Viagem"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  `;
+}
+

@@ -15,3 +15,125 @@
   padding: 10px;
   background-color: #f2f2f2;
 }
+
+/* Modo Escuro  */
+.youtube-section {
+  background: linear-gradient(to right, #000000e6, #1a1a1ae6);
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.youtube-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.youtube-container h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.youtube-container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #dddddd;
+}
+
+.youtube-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+.video-thumbnail {
+  position: relative;
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 1rem 1.2rem;
+  transition: background 0.3s ease;
+}
+
+.video-thumbnail:hover .play-button {
+  background: rgba(255, 0, 0, 0.8);
+}
+
+.youtube-button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.5);
+  margin-top: 0.5rem;
+}
+
+.youtube-button i {
+  margin-right: 10px;
+}
+
+.youtube-button:hover {
+  background-color: #cc0000;
+}
+
+/*  Modo Claro*/
+body.dark .youtube-section {
+  background: linear-gradient(to right, #ffffff, #f4f4f4);
+  color: #222;
+}
+
+body.dark .youtube-container h2 {
+  color: #222;
+}
+
+body.dark .youtube-container p {
+  color: #555;
+}
+
+body.dark .youtube-video {
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+body.dark .video-thumbnail {
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}

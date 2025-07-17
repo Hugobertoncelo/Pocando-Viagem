@@ -1,5 +1,4 @@
-/* Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
 
 body {
   background-color: black;
@@ -22,7 +21,7 @@ div {
   justify-content: space-between;
   align-items: center;
   color: darkblue;
-  height: 75px; 
+  height: 75px;
 }
 
 /* changed navbar css */
@@ -41,29 +40,27 @@ div {
   color: whitesmoke;
 }
 
-
 .logo {
-  font-family: 'poppins',sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0.4rem;
   /* padding: 0 1.2rem; */
   font-weight: 100;
-  color: rgb(254, 252, 252); 
+  color: rgb(254, 252, 252);
 }
 
 @media only screen and (max-width: 1245px) {
   .logo {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
 
-.logo_cont{
+.logo_cont {
   width: fit-content;
   height: 100%;
   display: flex;
   align-items: center;
 }
-
 
 .navbar a {
   margin-left: 10px;
@@ -237,13 +234,13 @@ input[type="radio"] {
 #item-3:checked ~ .cards #col-img-2,
 #item-4:checked ~ .cards #col-img-3,
 #item-5:checked ~ .cards #col-img-4 {
-  transform: translateX(-40%) scale(0.8); 
+  transform: translateX(-40%) scale(0.8);
   opacity: 0.4;
   z-index: 0;
   transition: all 0.5s ease;
 }
 
-/* tracks right img */ 
+/* tracks right img */
 #item-1:checked ~ .cards #col-img-2,
 #item-2:checked ~ .cards #col-img-3,
 #item-3:checked ~ .cards #col-img-4,
