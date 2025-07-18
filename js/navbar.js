@@ -4,7 +4,7 @@ nav.style.height = "70px";
 
 nav.innerHTML = `
   <div class="logo_cont">
-    <a href="#home" style="display: flex; align-items: center">
+    <a href="../index.html" style="display: flex; align-items: center">
       <img
         class="img2"
         src="./img/logo.png"
@@ -23,7 +23,7 @@ nav.innerHTML = `
     <ul class="nav-links">
       <li>
         <a
-          href="#home"
+          href="../index.html"
           id="pri"
           class="active cir_border"
           style="font-family: Poppins"
@@ -32,16 +32,16 @@ nav.innerHTML = `
       </li>
       <li>
         <a
-          href="Food/Food/Food.html"
+          href="#"
           id="sec"
           class="cir_border"
           style="font-family: Poppins"
-          >Comidas</a
+          >Loja</a
         >
       </li>
       <li>
         <a
-          href="Culture/Culture.html"
+          href="#"
           id="tri"
           class="cir_border"
           style="font-family: Poppins"
@@ -50,7 +50,7 @@ nav.innerHTML = `
       </li>
       <li>
         <a
-          href="History/History.html"
+          href="#"
           id="quad"
           class="cir_border"
           style="font-family: Poppins"
@@ -59,7 +59,7 @@ nav.innerHTML = `
       </li>
       <li>
         <a
-          href="Spiritual/Spiritual.html"
+          href="#"
           id="quint"
           class="cir_border"
           style="font-family: Poppins"
