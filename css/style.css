@@ -195,6 +195,21 @@ html {
   cursor: pointer;
 }
 
+.social-icon {
+  color: white;
+  font-size: 18px;
+  padding: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #fc036b;
+  color: white;
+}
+
+
 .men_cont {
   height: 100%;
   aspect-ratio: 1/1;
