@@ -5,17 +5,9 @@ nav.style.height = "70px";
 nav.innerHTML = `
   <div class="logo_cont">
     <a href="../index.html" style="display: flex; align-items: center">
-      <img
-        class="img2"
-        src="./img/logo.png"
-        width="70"
-        style="color: #000"
-      />
-      <h1
-        class="logo"
-        style="font-family: Poppins"
-      >
-        &nbsp;Pocando na Viagem
+      <h1 class="logo">
+        <img src="./img/logo.png" alt="Pocando na Viagem" 
+        style="height: 85px;" "width: 320px" />
       </h1>
     </a>
   </div>

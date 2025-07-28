@@ -1,6 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.titulo-destaque {
+  font-family: "Playfair Display", serif;
+  font-size: 5vmin;
+  color: #ffcc70;
+  margin-top: 1rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.header-content {
+  font-family: var(--ff-lora);
+  letter-spacing: 0.5rem;
+  color: whitesmoke;
+  text-align: center;
+  z-index: 1;
+  padding: 4rem;
+  margin-bottom: 150px;
+}
+
+.highlight-viagem {
+  color: #ff69b4;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+.highlight-juntos {
+  color: #00ffff;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+.styled-break {
+  width: 60px;
+  height: 4px;
+  background: #ffcc70;
+  margin: 2rem auto;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+.subtexto {
+  font-size: 2.5vmin;
+  color: #f0f0f0;
+  font-style: italic;
+  display: block;
+  margin-top: 1rem;
+}
+
 
 :root {
   box-sizing: border-box;
@@ -97,7 +146,8 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.2);
+  height: 90px;
+  background: rgb(4, 159, 227);
   backdrop-filter: saturate(180%) blur(10px);
   display: flex;
   width: 100vw;
@@ -165,7 +215,7 @@ html {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/front.jpg");
+  background-image: url("../img/header.webp");
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -192,6 +242,34 @@ header {
   margin-bottom: 150px;
 }
 
+.highlight-viagem {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.highlight-juntos {
+  font-weight: bold;
+  color: #ff69b4;
+}
+
+.styled-break {
+  width: 60px;
+  height: 4px;
+  background: #ffcc70;
+  margin: 2rem auto;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+.subtexto {
+  font-size: 3.5vmin;
+  color: #f0f0f0;
+  font-style: italic;
+  display: block;
+  margin-top: 1rem;
+}
+
+
 .header-content a {
   letter-spacing: 0.1rem;
 }
@@ -204,11 +282,12 @@ header {
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  padding: 2rem 3rem;
   border-radius: 12px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+
 
 .line {
   width: 150px;
@@ -826,7 +905,7 @@ body.dark {
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 3em;
   letter-spacing: 4px;
   overflow: hidden;
   background: linear-gradient(45deg, #fa4a47, #43d5d3, #f2cb71);
