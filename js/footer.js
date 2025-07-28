@@ -6,19 +6,19 @@ footer.innerHTML = `
   <div class="social">
     <li>
       <a href="https://github.com/Hugobertoncelo" target="_blank" rel="noreferrer">
-        <i class="fa fa-github"></i>
+        <i class="fab fa-github"></i>
       </a>
       <a href="https://hugobertoncelo.github.io/Portfolio/" target="_blank" rel="noreferrer">
-        <i class="fa fa-address-card"></i>
+        <i class="fas fa-id-card"></i>
       </a>
       <a href="https://www.linkedin.com/in/hugobertoncelo" target="_blank" rel="noreferrer">
-        <i class="fa fa-linkedin-square"></i>
+        <i class="fab fa-linkedin"></i>
       </a>
       <a href="https://www.instagram.com/bertoncelo.hugo/" target="_blank" rel="noreferrer">
-        <i class="fa fa-instagram"></i>
+        <i class="fab fa-instagram"></i>
       </a>
       <a href="https://wa.me/5528999453033" target="_blank" rel="noreferrer">
-        <i class="fa fa-whatsapp"></i>
+        <i class="fab fa-whatsapp"></i>
       </a>
     </li>
   </div>

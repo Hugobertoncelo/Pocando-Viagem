@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
   </head>
 
   <body
@@ -122,27 +123,17 @@
         <h1 class="font-color">Algumas Viagens</h1>
         <div class="line"></div>
       </div>
-      <br />
-      <div id="about_us">
-        <div class="boxx">
-          <div class="containerx">
-            <input type="radio" name="slider" id="item-1" checked />
-            <input type="radio" name="slider" id="item-2" />
-            <input type="radio" name="slider" id="item-3" />
-            <div class="cards">
-              <label class="cardt" for="item-1" id="col-img-1">
-                <img src="./img/roma.jpeg" />
-              </label>
-              <label class="cardt" for="item-2" id="col-img-2">
-                <img src="./img/paris.webp" />
-              </label>
-              <label class="cardt" for="item-3" id="col-img-3">
-                <img src="./img/aveiro.webp" />
-              </label>
-            </div>
-          </div>
-          <div class="about"></div>
+
+      <div class="carousel-container">
+        <button class="nav prev">&#10094;</button>
+        <div class="carousel-slide">
+          <img src="./img/roma.jpeg" alt="Roma" />
+          <img src="./img/paris.webp" alt="Paris" />
+          <img src="./img/aveiro.webp" alt="Aveiro" />
+          <img src="./img/bh.jpg" alt="Belo Horizonte" />
+          <img src="./img/es.jpg" alt="Espírito Santo" />
         </div>
+        <button class="nav next">&#10095;</button>
       </div>
     </section>
 
@@ -161,5 +152,6 @@
     <script src="js/main.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/contact.js"></script>
+    <script src="js/carousel.js"></script>
   </body>
 </html>

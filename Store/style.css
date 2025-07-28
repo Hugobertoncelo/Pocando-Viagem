@@ -124,7 +124,7 @@ div {
 #about_us p::first-letter {
   padding-left: 47px;
   font-size: 55px;
-  color: #fc036b;
+  color: rgb(4, 159, 227);
 }
 
 /* Wrapper Section */

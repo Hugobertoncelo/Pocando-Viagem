@@ -56,8 +56,8 @@ nav.innerHTML = `
         <div>
           <input type="checkbox" class="checkbox dark" id="checkbox" />
           <label for="checkbox" class="label">
-            <i class="fa fa-moon-o"></i>
-            <i class="fa fa-sun-o"></i>
+            <i class="fa-regular fa-moon"></i>
+            <i class="fa-regular fa-sun"></i>
             <div class="ball"></div>
           </label>
         </div>
