@@ -146,7 +146,6 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  height: 90px;
   background: rgb(4, 159, 227);
   backdrop-filter: saturate(180%) blur(10px);
   display: flex;

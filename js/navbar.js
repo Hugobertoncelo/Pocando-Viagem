@@ -1,6 +1,6 @@
 const nav = document.createElement("nav");
 nav.className = "navbar glass";
-nav.style.height = "70px";
+nav.style.height = "90px";
 
 nav.innerHTML = `
   <div class="logo_cont">
